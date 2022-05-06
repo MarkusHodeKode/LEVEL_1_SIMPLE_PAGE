@@ -1,0 +1,159 @@
+/* 
+
+Made by the owner of discord-tag: MarkusM#8517 
+E-mail: MarkusMj.Hodekode@gmail.com
+For questions or suggestions to better the code, please contact me.
+
+*/
+
+
+
+
+/* ============== Tags below here ============== */
+
+body {
+    background-color: rgba(17,21,25,255);
+    margin: 0;
+    margin-bottom: 3.5rem;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: grey;
+    height: 3.5rem;
+}
+
+h1{
+    font-size: 10rem;
+    color: #b4850f;
+    text-align: center;
+    padding: 0.5em 1.5em 0.5em 1.5em;
+}
+
+h2{
+    font-size: 4rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; /* Kek Font */
+    color: blanchedalmond;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+h3{
+    color: black;
+    background-color: aqua;
+    padding: 1rem 2rem 1rem 1rem;
+    margin: 0.5rem 1rem 0rem 1rem;
+    border: 2px solid blue;
+    border-radius: 1rem;
+    font-size: 1rem;
+}
+
+p{
+    color: rebeccapurple;
+    background-color: grey;
+    padding: 1rem 2rem 1rem 1rem;
+    margin: 0.25rem;
+}
+
+/* ============== Tags end here ============== */
+
+
+
+
+/* ============== IDs below here ============== */
+
+#footerText{ /* ID for unique footer-text */
+    font-weight: bolder;
+    font-size: 1rem;
+    text-align: center;
+}
+
+#introText{ /* My intentionally off-put salmon bar to give a kick to the site */
+    background-color: lightsalmon;
+    max-width: fit-content;
+    font-weight: bolder;
+    font-size: 1.5rem;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;;
+}
+
+#mistake{ /* Button to summon the alternative beast */
+    font-size: 1.5rem;
+    padding: 1rem;
+    border-radius: 25px;
+    margin: auto;
+    display: block;
+    margin-bottom: 6rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* ============== IDs end here ============== */
+
+
+
+
+/* ============== Classes (General) below here ============== */
+
+.green{ /* Make font green + bold */
+    color: green;
+    font-weight: bold;
+}
+
+.red{ /* Make font red + bold */
+    color: red;
+    font-weight: bold;
+}
+
+/* ============== Classes (General) end here ============== */
+
+
+
+
+/* ============== Classes (Buttons) below here ============== */
+
+.purchaseProduct{ /* Button class for buying products */
+    margin: auto;
+    display: block;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    padding: 0.5rem;
+    border-radius: 25px; /* Shapes the border */
+}
+
+/* ============== Classes (Buttons) end here ============== */
+
+
+
+
+/* ============== Flexbox below here ============== */
+
+.shopbox{ /* Intended usecase: 3x* grid for products*/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items:center;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.shopitem{ /* Use with parent: .shopbox
+    Size scaling store items + Centered content of product*/
+    width: 32%;
+    margin-bottom: 5%;
+    padding-bottom: 2%;
+    background-color: whitesmoke;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px; /* Shapes the border */
+}
+
+.stretchy{ /* Used to make pictures fill their box (Upscaling if image too small) */
+    display: block;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 1rem;
+}
+
+/* ============== Flexbox end here ============== */
